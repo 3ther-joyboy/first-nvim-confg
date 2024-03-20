@@ -7,3 +7,4 @@ vim.g.undotree_ShortIndicators = 1
 vim.g.undotree_SetFocusWhenToggle = 1
 vim.g.undotree_HighlightSyntaxAdd = "SpellRare" 
 vim.g.undotree_HighlightSyntaxChange = "SpellLocal"
+vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
